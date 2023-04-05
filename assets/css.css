@@ -1,0 +1,127 @@
+.page{
+    background-color: #F5EBDC;
+    margin: 0;
+    border: 0;
+}
+#main {
+    margin-top: 84px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headerImage{
+    width: 300px;
+    height: 100px;
+}
+#textBottomheader {
+    border-color: red;
+    display: flex;
+    justify-content: center;
+}
+.headerText{
+    width: 50%;
+    margin-top: 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#graddleBuger {
+    border-color: red;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+.burgercard{
+    border-radius: 12px 12px 0px 0px;
+    background-color: white;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 90px;
+    justify-content: baseline;
+    width: 300px;
+    height: 210px;
+}
+.burgercardimage{
+
+    display: flex;
+    margin: 25 33 18 52;
+    justify-content: center;
+}
+.burgercardBottom{
+    background-color: #FED8B5;  
+    margin-top: 18px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 96px;
+}
+.burgercardBottomText{
+    margin: 20 18 19 21 ;
+    width: 150px;
+}
+.burgercardBottomText span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #D42401;
+}
+.burgercardBottomText text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #502314;
+}
+.burgercardBottomPrice{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    margin: 20 18 19 0;
+    width: 150px;
+}
+.burgercardBottomPrice span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 47px;
+    
+    color: #D42401;
+}
+.burgercardBottomPrice text{
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 24px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #502314;
+}
